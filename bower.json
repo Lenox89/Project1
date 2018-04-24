@@ -1,0 +1,8 @@
+{
+  "name": "Project1",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "angular": "^1.6.10",
+    "angular-route": "^1.6.10"
+  }
+}
