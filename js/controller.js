@@ -1,17 +1,18 @@
 angular.module('RouteControllers', [])
     .controller('HomeController', function($scope) {
         $scope.title = "Welcome To The Grimm Syndicate!";
-    });
-    .controller('RegisterController', function($scope) {
+    })
+    .controller('ContactController', function($scope) {
  
-        $scope.registrationUser = {};
+        $scope.contactUser = {};
  
         $scope.submitForm = function() {
-            if ($scope.registrationForm.$valid) {
-                $scope.registrationUser.username = $scope.user.username;
-                $scope.registrationUser.password = $scope.user.password;
+            if ($scope.contactForm.$valid) {
+                $scope.contactUser.name = $scope.user.name;
+                $scope.contactUser.email = $scope.user.email;
+                $scope.contactUser.message = $scope.user.message;
             }
  
-            console.log($scope.registrationUser.username + " " + $scope.registrationUser.password);
+            console.log($scope.contactUser.name + " " + $scope.contactUser.email + " " + $scope.contactUser.message);
         }
     });

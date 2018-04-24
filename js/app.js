@@ -10,5 +10,17 @@ angular.module('GSApp').config(function($locationProvider, $routeProvider) {
     .when('/about', {
         templateUrl: 'templates/about.html',
         controller: 'AboutController'
+    })
+    .when('/games', {
+        templateUrl: 'templates/games.html',
+        controller: 'GamestController'
+    })
+    .when('/blog', {
+        templateUrl: 'templates/blog.html',
+        controller: 'BlogController'
+    })
+    .when('/contact', {
+        templateUrl: 'templates/contact.html',
+        controller: 'ContactController'
     });
 });

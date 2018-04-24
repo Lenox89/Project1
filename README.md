@@ -1,18 +1,18 @@
-# Grimm Syndicate Entertainment
+# Grimm Syndicate Games
  
 ## Overview
  
 ### What is this site for?
  
-This is a website for the entertainment company Grimm Syndicate. It helps users to keep track of all things grimm syndicate.
+This is a website for the gaming company Grimm Syndicate. It helps users to keep track of all things grimm syndicate.
  
 ### What does it do?
  
-This app will allow users to register and login. Once the users have done that, they'll be able to view and download exclusive content. Users will be able to watch videos, download games, listen to music, and read both comics, and books!
+This app will allow users to register and login. Once the users have done that, they'll be able to view and download exclusive content. Users will be able to watch videos, download games, and listen to music.
  
 ### How does it work
 
-This app uses JSON Web Tokens to authenticate users and keep them logged in. All the data is consumed from an API hosted on Heroku using AngularJS. The site is styled with Bootstrap.
+
  
 ## Features
  

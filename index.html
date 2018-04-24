@@ -3,12 +3,16 @@
 <head>
     <base href="/"> <!-- needed for Angular HTML 5 mode -->
     <title>Grimm Syndicate Games</title>
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 401px)" href="desktop.css" />
     <style type="text/css">
         body {
             padding-top: 70px;
+            background-color: #555555;
         }
     </style>
 </head>
@@ -19,13 +23,14 @@
                 <a class="navbar-brand" href="/">GS Games</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-            	<li><a href="/about">About</a></li>
-                <li><a href="/games">Team</a></li>
-                <li><a href="/shows">Shedule</a></li>
-                <li><a href="/contact">Tickets</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/games">Games</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </div>
     </nav>
+
     <div ng-view>
  
     </div>

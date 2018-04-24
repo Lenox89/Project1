@@ -1,0 +1,21 @@
+nav ul li a {
+     display: block;
+     text-decoration: none;
+     font-family: roboto;
+     color: #fff;
+}
+nav ul {
+     list-style: none;
+     text-align: center;
+}
+nav ul li {
+     font-size: 30px;
+     border-bottom: 1px solid #444;
+     padding: 10px 5px;
+     background-color: #1D2026;
+}
+ 
+nav ul li:hover {
+     background-color: #555;
+     transition: all .3s ease;
+}
