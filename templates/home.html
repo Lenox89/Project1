@@ -1,9 +1,78 @@
-<div>
-    <h1>{{title}}</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="body-fill">
+	<div class="disclaimer">
+    	<h1>{{title}}</h1>
+    	<p>I do not own the rights to any of the games depicted in this website. <br>They are for example purposes only.</p>
+	</div>
+	
+	<!-- image gallery from w3schools -->
+	<div class="container">
+  		<!-- Full-width images with number text -->
+  		<div class="slides">
+    		<div class="numbertext">1 / 6</div>
+      		<img src="Assassins-creed-1.jpg" style="width:100%">
+  		</div>
+
+  		<div class="slides">
+    		<div class="numbertext">2 / 6</div>
+      		<img src="mass-effect-andromeda.jpg" style="width:100%">
+  		</div>
+
+  		<div class="slides">
+    		<div class="numbertext">3 / 6</div>
+      		<img src="metal-gear-solid-v.jpg" style="width:100%">
+  		</div>
+
+  		<div class="slides">
+    		<div class="numbertext">4 / 6</div>
+      		<img src="spider-man.jpg" style="width:100%">
+  		</div>
+
+  		<div class="slides">
+    		<div class="numbertext">5 / 6</div>
+      		<img src="ghost-recon.jpg" style="width:100%">
+  		</div>
+
+  		<div class="slides">
+    		<div class="numbertext">6 / 6</div>
+      		<img src="batman.jpg" style="width:100%">
+  		</div>
+
+  		<!-- Next and previous buttons -->
+  		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  		<!-- Image text -->
+  		<div class="caption-container">
+    		<p id="caption"></p>
+  		</div>
+
+  		<!-- Thumbnail images -->
+  		<div class="row">
+    		<div class="column">
+      			<img class="demo cursor" src="Assassins-creed-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Assassins Creed">
+    		</div>
+
+    		<div class="column">
+      			<img class="demo cursor" src="mass-effect-andromeda.jpg" style="width:100%" onclick="currentSlide(2)" alt="Mass Effect">
+    		</div>
+
+    		<div class="column">
+      			<img class="demo cursor" src="metal-gear-solid-v.jpg" style="width:100%" onclick="currentSlide(3)" alt="Metal Gear">
+    		</div>
+
+    		<div class="column">
+      			<img class="demo cursor" src="spider-man.jpg" style="width:100%" onclick="currentSlide(4)" alt="Spider-man">
+    		</div>
+
+    		<div class="column">
+      			<img class="demo cursor" src="ghost-recon.jpg" style="width:100%" onclick="currentSlide(5)" alt="Ghost Recon">
+    		</div>
+
+    		<div class="column">
+      			<img class="demo cursor" src="batman.jpg" style="width:100%" onclick="currentSlide(6)" alt="Batman">
+    		</div>
+  		</div>
+	</div>
+
+
 </div>
